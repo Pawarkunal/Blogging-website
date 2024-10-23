@@ -32,7 +32,7 @@ function Signup() {
       >
         <div className="mb-2 flex justify-center">
           <span className="inline-block w-full max-w-[100px]">
-            <Logo width="200%"/>
+            <Logo/>
           </span>
         </div>
         <h2 className="text-center text-2xl font-bold leading-tight">
@@ -44,7 +44,7 @@ function Signup() {
             to="/login"
             className="font-medium text-primary transition-all duration-200 hover:underline"
           >
-            Sign In
+            Log In
           </Link>
         </p>
         {error && <p className="text-red-600 mt-8 text-center">{error}</p>}
